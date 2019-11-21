@@ -1,0 +1,11 @@
+version: '2'
+services:
+  wstudioman-postgresql:
+    image: postgres:11.5
+    # volumes:
+    #     - ~/volumes/jhipster/WStudioMan/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=WStudioMan
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

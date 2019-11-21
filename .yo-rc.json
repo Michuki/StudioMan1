@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "WStudioMan",
+    "packageName": "com.studioman.app",
+    "packageFolder": "com/studioman/app",
+    "serverPort": 8880,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "ZjdmMWU5MTExNTIyN2NkOTUyMzRkNTAwZmNjYzA0M2Q1M2NlY2RjOGViZjUwMmE5ZjFhNjAzNDliNzRmNTNhNzA5MTk5YWY4ZjQ0N2I5YTJlNjA0ZDRmYjAyNjZhY2E0NDAyZDc4YzQ2YzZlN2E3NjdiOWU5NjFlNjUxZThmMjk=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "Michuki",
+  "repository-name": "StudioMan1"
+}
